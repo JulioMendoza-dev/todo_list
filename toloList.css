@@ -4,31 +4,34 @@
     justify-content: center;
     border: solid 3px black;
     gap: 30px;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
+    background-color: aquamarine;
 }
 
 #container{
     display: flex;
     flex-direction: column;
     gap: 30px;
+
     justify-content: center;
-}
-#container-top{
-    font-display: flex;
-    flex-direction: row;
+
+    background-color: aqua;
+    padding: 20px;
 }
 
-#nuevaTarea{
-text-align: center;
-width: 800px;
-height: 30px;
+#tarea_input{
+    height: 25px;
+
 }
 
 #agregar{
+    border-radius: 5px;
+    background-color: greenyellow;
     height: 31px;
     width: 100px;
 }
+
 #resumen-centrado{
     display: flex;
     flex-direction: row;
